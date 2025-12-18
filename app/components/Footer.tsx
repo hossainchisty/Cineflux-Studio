@@ -5,7 +5,7 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6 max-w-[960px] flex-1">
                     <div className="flex items-center gap-2 text-white">
                         <span className="material-symbols-outlined text-[20px] text-gray-500">movie_edit</span>
-                        <h2 className="text-white text-base font-bold">Apex Media</h2>
+                        <h2 className="text-white text-base font-bold">CineFlux Studio</h2>
                     </div>
 
                     <div className="flex gap-6">
@@ -15,7 +15,7 @@ const Footer = () => {
                         <a className="text-gray-500 hover:text-white text-sm transition-colors" href="#">LinkedIn</a>
                     </div>
 
-                    <p className="text-gray-600 text-xs">© 2026 Apex Media. All rights reserved.</p>
+                    <p className="text-gray-600 text-xs">© 2026 CineFlux Studio. All rights reserved.</p>
                 </div>
             </div>
         </footer>
