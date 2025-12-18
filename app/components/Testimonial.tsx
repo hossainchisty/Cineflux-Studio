@@ -3,7 +3,7 @@ const Testimonial = () => {
         <section className="py-16 border-t border-white/5 bg-[#0e121b]">
             <div className="px-4 md:px-10 lg:px-40 flex justify-center">
                 <div className="flex flex-col max-w-[800px] flex-1 text-center">
-                    <div className="flex justify-center mb-6 text-primary">
+                    <div className="flex justify-center mb-6 text-accent-purple">
                         <span className="material-symbols-outlined text-3xl">format_quote</span>
                     </div>
 

@@ -1,21 +1,21 @@
 const Hero = () => {
     return (
-        <section className="relative flex flex-col items-center justify-center pt-20 pb-20 md:py-32 overflow-hidden bg-mesh">
+        <section className="relative flex flex-col items-center justify-center pt-10 pb-10 md:py-20 overflow-hidden bg-mesh">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1400px] h-[800px] bg-hero-glow pointer-events-none opacity-40"></div>
 
             <div className="px-4 md:px-10 lg:px-40 flex justify-center w-full relative z-10">
                 <div className="flex flex-col max-w-[960px] flex-1 items-center text-center gap-10 reveal-animation">
                     <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 backdrop-blur-md shadow-2xl">
                         <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse shadow-[0_0_10px_vars(--color-primary)]"></span>
-                        <span className="text-xs font-black tracking-widest uppercase text-white/90">Limited Q4 Capacity: 2 Slots Left</span>
+                        <span className="text-sm font-black text-white/90">Limited Q4 Capacity: 2 Slots Left</span>
                     </div>
 
                     <div className="flex flex-col gap-6">
-                        <h1 className="text-white text-5xl md:text-7xl lg:text-8xl font-black leading-[0.95] tracking-tighter max-w-[900px]">
+                        <h1 className="text-white text-5xl md:text-8xl lg:text-8xl font-black leading-[0.95] max-w-[900px]">
                             REVOLUTIONIZING <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-blue-400 to-accent-pink glow-text">DIGITAL STORYTELLING</span>
                         </h1>
-                        <p className="text-gray-400 text-lg md:text-xl font-medium leading-relaxed max-w-[650px] mx-auto opacity-80">
+                        <p className="text-gray-400 text-lg md:text-lg lg:text-lg font-medium leading-relaxed max-w-[650px] mx-auto opacity-80">
                             We don&apos;t just edit videos. We engineer retention, maximize engagement, and turn raw footage into high-performance digital assets.
                         </p>
                     </div>

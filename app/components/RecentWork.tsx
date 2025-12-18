@@ -72,7 +72,7 @@ const RecentWork = () => {
       <div className="px-4 md:px-10 lg:px-40 flex justify-center relative z-10">
         <div className="flex flex-col max-w-[960px] flex-1">
           <div className="mb-12 reveal-animation">
-            <span className="text-primary font-black tracking-[0.2em] text-xs uppercase mb-3 block glow-text">SELECTED PROJECTS</span>
+            <span className="text-accent-purple font-black tracking-[0.2em] text-xs uppercase mb-3 block glow-text">SELECTED PROJECTS</span>
             <h2 className="text-white text-4xl md:text-5xl font-black leading-tight tracking-tighter">PORTFOLIO</h2>
           </div>
 
